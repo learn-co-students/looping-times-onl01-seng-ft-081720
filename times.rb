@@ -1,7 +1,9 @@
-def using_times
-	#your code here
+phrase =  "Wingardium Leviosa"
+
+def using_times(phrase)
+  
+	7.times do 
+	  puts phrase
+end 
 end
-
-
-
-
+using_times(phrase)
